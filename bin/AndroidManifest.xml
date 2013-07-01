@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.lichen.guide"
+      android:versionName="2.0.1" android:versionCode="11" 
+      android:installLocation="preferExternal">
+
+	<uses-sdk android:minSdkVersion="7" />
+
+    <application android:label="@string/app_name" android:icon="@drawable/lichen_menu">
+      <uses-library android:name="com.google.android.maps" />
+        <activity android:name=".Start"
+                  android:label="@string/app_name" android:theme="@android:style/Theme.Light.NoTitleBar"
+                  android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+<activity android:name="IndexDetails" android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+<activity android:name="IndexList" android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+<activity android:name="AboutApp" android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+<activity android:name="GlossaryList" android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+<activity android:name="GlossaryDetails" android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+     
+<activity android:name="Key_Couplet1" android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+<activity android:name="Key_Couplet2" android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+<activity android:name="Key_Couplet3" android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+<activity android:name="Key_Couplet4" android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+<activity android:name="Key_Couplet5" android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+<activity android:name="Key_Couplet6" android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+<activity android:name="Key_Couplet7" android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+<activity android:name="Key_Couplet8" android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+<activity android:name="Key_Couplet9" android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+<activity android:name="Key_Couplet10" android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+<activity android:name="Key_Couplet11" android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+<activity android:name="Key_Couplet12" android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+<activity android:name="Key_Couplet13" android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+<activity android:name="Key_Couplet14" android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+<activity android:name="Key_Couplet15" android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+<activity android:name="Key_Couplet16" android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+
+ 
+    </application>
+</manifest>
+<!--  
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />  -->

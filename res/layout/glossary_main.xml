@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <!-- Header -->
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="2sp" android:baselineAligned="true"
+    android:background="@drawable/back_rectangle">
+    
+        <ImageView 
+    	android:src="@drawable/lichen_menu"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:id="@+id/logo"
+    	android:layout_gravity="center_vertical"/>
+    	
+		<TextView
+			android:id="@+id/glossary_header_text"
+	        android:text="Glossary"
+	        android:textSize="24sp"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:textColor="#FFFFFF"
+	        /> 
+	        
+	</LinearLayout> 
+        
+<RelativeLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="4px">	
+
+	<ListView
+		android:id="@android:id/list"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		/>
+
+</RelativeLayout>
+
+
+</LinearLayout><!--  -->

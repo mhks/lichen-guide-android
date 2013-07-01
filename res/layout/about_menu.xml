@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1">
+     
+    <TableRow>
+        <TextView
+            android:text="About Lichen Guide"
+            android:layout_width="wrap_content"
+            android:padding="3dip"
+            android:textSize="10pt" />
+
+    </TableRow>
+    
+            <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+      
+        <TableRow>
+        <TextView
+            android:text="This app is based on data from surveys of EEON plots conducted by Michael Hicks and Billy Smith in April, 2011."
+            android:layout_width="wrap_content"
+            android:padding="3dip"
+            android:textSize="8pt" />
+
+    	</TableRow>
+
+
+        <TableRow>
+        <TextView
+            android:text="Key and species index images by Michael Hicks."
+            android:layout_width="wrap_content"
+            android:padding="3dip"
+            android:textSize="8pt" />
+
+    	</TableRow>
+    	        <TableRow>
+        <TextView
+            android:text="Glossary entries and images by Al Fischer."
+            android:layout_width="wrap_content"
+            android:padding="3dip"
+            android:textSize="8pt" />
+
+    	</TableRow>
+        
+        <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+        
+            <TableRow>
+        <TextView
+            android:text="Acknowledgements"
+            android:layout_width="wrap_content"
+            android:padding="3dip"
+            android:textSize="10pt" />
+
+    		</TableRow>
+            <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+    
+    	<TableRow>
+        <TextView
+            android:text="The Evergreen State College"
+            android:layout_width="wrap_content"
+            android:padding="3dip"
+            android:textSize="8pt" />
+
+    	</TableRow>
+    	
+    	<TableRow>
+        <TextView
+            android:text="Evergreen Ecological Observation Network (EEON)"
+            android:layout_width="wrap_content"
+            android:padding="3dip"
+            android:textSize="8pt" />
+
+    </TableRow>
+            <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />    
+<TableRow>
+        <TextView
+            android:text="References"
+            android:layout_width="wrap_content"
+            android:padding="3dip"
+            android:textSize="10pt" />
+
+    </TableRow>
+            <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+        
+        <TextView
+            android:text="Brodo, I.M., S.D. Sharnoff, and S. Sharnoff (2001). Lichens of North America.  Yale University Press."
+            android:layout_width="wrap_content"
+            android:padding="3dip"
+            android:textSize="8pt" />
+
+       <TextView
+            android:text="McCune, B, and L. Geiser (2009). Macrolichens of the Pacific Northwest. Oregon State University Press."
+            android:layout_width="wrap_content"
+            android:padding="3dip"
+            android:textSize="8pt" />
+
+
+</TableLayout>
+</ScrollView>

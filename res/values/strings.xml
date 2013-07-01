@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lichen Guide</string>
+    <string name="titleText">Lichen Guide</string>
+    <string name="EEON_prompt">Select Plot</string>
+        <string name="LichenList">Lichen Index</string>
+    
+    
+    
+    <string-array name="optionsMenu">
+    	<item>Glossary of Terms</item>
+		<item>About Lichen Guide</item>
+    </string-array>
+    
+    <string-array name="start_page_options">
+    <item>Key to Genera</item>
+    <item>Species Index</item>
+    <item>Glossary</item>
+    <item>About</item>
+    
+    
+    </string-array>
+    
+
+    
+    <string-array name="couplet1">   
+     
+    <item>1A - Thallus foliose or fruticose.  On branches or trunks of conifers and hardwoods.</item>   
+    <item>1B - Fruit-body resembling a typical cap and stem mushroom</item>
+    <item>1C - Podetiate and arising from light green primary squamules</item> 
+    <item>1D - Thallus fruticose, erect and abundantly branched, generally with small spherical protrusions 
+    at ends of branches, color light tan/cream to orangish brown.</item>
+    
+    </string-array>
+    
+    
+    
+    <string-array name="couplet2">   
+     
+    <item>2A - Thallus foliose, with distinctly different upper and lower surfaces.  Epiphytic on tree branches, 
+    			trunks or stumps, or on the ground, often among moss.  Color various.</item>   
+    <item>2B - Thallus fruticose, branches generally round to flattened. Branches either solid or hollow.  
+    			Epiphytic on tree branches and trunks.  Color various.</item>
+    
+    </string-array>
+    
+    
+
+    <string-array name="couplet3">   
+     
+    <item>3A - Underside of thallus generally without noticeable rhizines.  Other thallus characteristics various.</item>   
+    <item>3B - Underside of thallus with few to abundant rhizines.  Other thallus characteristics various.</item>
+    
+    </string-array>
+ 
+ 
+    <string-array name="couplet4">   
+     
+    <item>4A - Thallus usually large, surface wrinkled/ridged; bright green to dull grey/green when fresh.  
+    		Circular soralia often abundant on surface ridges and margins.  Underside white, tan/cream to brown and ridged.  
+    		Apothecia uncommon.</item>   
+    <item>4B - Lobes hollow, interior various.  Color ranges from white to light grey/green to green. Sorediate or not.</item>
+    
+    </string-array> 
+
+    
+    <string-array name="couplet5">   
+     
+    <item>5A - Thallus lobes small, appressed to substrate, with noticeable holes in top surface.  
+    		Soredia abundant in roughly hood shaped to torn/upturned soralia on lobe tips.  Color white to light green.  
+    		Often appearing to grow out from a central point, on branches and tree trunks.            </item>   
+    <item>5B - Lobes of various sizes and lengths, sub-erect, erect to appressed.  Lobe interiors various, ranging from white to brown.  
+    		Several species with holes in lobe branch axils.  Soredia present or not.  Common and abundant in coniferous areas.</item>
+    
+    </string-array>
+    
+    <string-array name="couplet6">
+    <item>6A - Thallus with marginal cilia.  Cilia variously colored, long or short. </item>
+    <item>6B - Thallus without cilia. </item>
+    
+    </string-array>
+    
+        <string-array name="couplet7">
+    <item>7A - Thallus small, lobes narrow, usually less than 1mm wide. Color white to pale grey.  
+    		Rhizines usually not abundant.  Soredia present at lobe tips in irregular/lip shaped soralia. </item>
+    <item>7B - Thallus much larger than above.  Color white to light green/grey.  
+    		Abundant to sparse black marginal cilia.  Soredia present in rounded soralia at lobe tips.   </item>
+    
+    </string-array>
+    
+        <string-array name="couplet8">
+    <item>8A - Thallus some shade olive green/brown to green.  Rhizines few to lacking.  Isidia, pycnidia, or soredia present.  
+    		Most commonly on branches.  Growing erect to suberect or appressed. </item>
+    <item>8B - Thallus some other color.  If brown to dark gray, then with distinct, prominent rhizines and veins on underside. </item>
+    
+    </string-array>
+    
+        <string-array name="couplet9">
+    <item>9A - Abundant black, mostly marginal, though sometimes laminal pycnidia; marginal apothecia common OR margins 
+    	wihout pycndia but with marginal soralia.     </item>
+    	
+    <item>9B - Growing appressed to subsrate, lacking soredia.  Isidia mostly laminal, finger-like, easily breaking off.  </item>
+    
+    </string-array>
+    
+        <string-array name="couplet10">
+    <item>10A - Thallus color various, but ranges from brown to dark grey to gray/green.  
+    		Underside of thallus with both prominent rhizines and veins. Rhizines tomentose to smooth or tufted.   
+    		Apothecia, if present, usually orange and protruding from lobe tips. Lobes often broad and growing in large clumps.  
+    		Almost always growing embedded in moss either on the ground or epiphytically on trees, most often hardwoods.   </item>
+    		
+    <item>10B - Upper surface usually light grey/green.  Underside with sparse to lacking rhizines and a combination of 
+    		some shade of black, brown or white OR underside with abundant, small black rhizines with various branching patterns. </item>
+    
+    </string-array>
+    
+        <string-array name="couplet11">
+    <item>11A - Lobes broad to narrow, often ragged looking, with few to sparse rhizines.  
+    		Isidia or soredia usually present, often abundant on margins.  Underside usually some combination of black, brown or white. </item>
+    <item>11B - Lobes generally narrow, thallus small, with abundant black rhizines. </item>
+    
+    </string-array>
+    
+        <string-array name="couplet12">
+    <item>12A - Soredia on rounded lobe tips, rhizines branching dichotomously.  Isidia lacking.     </item>
+    <item>12B - Soredia or isidia present, either laminally or on margins.  Rhizines branching squarrosely or otherwise.  
+    		Very common.     </item>
+    
+    </string-array>
+    
+        <string-array name="couplet13">
+    <item>13A - Tufted or pendulous on tree branches or trunks.  Has a distinct, 
+    		elastic-like internal cord running through the branches.  Medulla cotton-like, thin to dense around the cord.  </item>
+    <item>13B - Thallus without an internal cord.  Color various. </item>
+    
+    </string-array>
+    
+        <string-array name="couplet14">
+    <item>14A - Thallus branches mostly flattened, dichotomous.  Usually tufted but some specimens can appear pendulous. </item>
+    <item>14B - Thallus round, thin, string/thread-like, often without an obvious point of attachment to the substrate.  
+    		Color ranges from light greenish/yellow to dark brown, grey.  Often pendulous from conifer branches. </item>
+    
+    </string-array>
+    
+        <string-array name="couplet15">
+    <item>15A - Ventral surface light green to green/gray, while underside of branch is much lighter, often white.		 </item>
+    <item>15B -  Thallus uniformly light green/yellow.  Often with round/elliptical marginal or laminal soralia. 
+    			Some species with abundant apothecia.	   </item>
+    
+    </string-array>
+    
+        <string-array name="couplet16">
+    <item>16A - Color light green.  Apothecia lecanorine, the disc light brown.  Branches with prominent, elongate, white pseudocyphallae. </item>
+    <item>16B - Color grey to brown.  String/thread like.  Soredia and isidia present or not.		 </item>
+    
+    </string-array>
+    
+        <string-array name="couplet17">
+    <item>17A - Fruit body a mushroom, pale tan/orange to cream with decurrent gills, growing from dark green primary thallus.  
+    	Common on rotting wood and stumps.	 </item>
+    
+    <item>17B - Not like above. </item>
+    </string-array>
+    
+    
+        <string-array name="couplet18">
+    <item>18A - Thallus erect and abundantly branched with spherical apothecia at branch ends.  
+    Apothecia bursting, revealing a black interior.  Most common on hardwood branches and trunks.    </item>
+    <item>18B - Distinct podetia (cup-shaped or otherwise) arising from small, leafy squamules.  
+    Apothecia color various, usually ranging from brown to red, or absent.  Common on conifer trunks, but also on stumps, 
+    uncommon on branches.   </item>
+    
+    </string-array>
+    
+
+    
+
+    
+    
+    
+    
+</resources>

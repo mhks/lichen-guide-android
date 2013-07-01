@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/linear_layout">
+    <!-- Header -->
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="2sp" android:baselineAligned="true"
+    android:background="@drawable/back_rectangle">
+    
+        <ImageView 
+    	android:src="@drawable/lichen_menu"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:id="@+id/logo"
+    	android:layout_gravity="center_vertical"/>
+    	
+		<TextView
+			android:id="@+id/main_header_text"
+	        android:text="Lichen Guide"
+	        android:textSize="24sp"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:textColor="#FFFFFF"
+	        /> 
+	        
+	</LinearLayout>
+	
+	<RelativeLayout 
+		android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:padding="30sp"
+	    android:background="#000000">
+	    
+		<Button 
+			android:text="Key to Genera"
+			android:layout_width="280sp"
+			android:layout_height="wrap_content"
+			android:id="@+id/key_genera"
+			android:textSize="22sp"
+			android:gravity="center_vertical" android:paddingLeft="26sp"/>
+		
+		<Button 
+			android:id="@+id/index" 
+			android:text="Species Index"
+			android:layout_width="280sp"
+			android:layout_height="wrap_content"
+			android:textSize="22sp"
+			android:paddingLeft="26sp"
+			android:layout_below="@id/key_genera"
+			android:gravity="center_vertical" />
+		
+		<Button 
+			android:id="@+id/glossary" 
+			android:text="Glossary of Terms"
+			android:layout_width="280sp"
+			android:layout_height="wrap_content"
+			android:textSize="22sp"
+			android:paddingLeft="26sp"
+			android:layout_below="@id/index"
+			android:gravity="center_vertical" />
+			
+		<Button 
+			android:id="@+id/about" 	
+			android:text="About Lichen Guide"
+			android:layout_width="280sp"
+			android:layout_height="wrap_content"
+			android:textSize="22sp"
+			android:paddingLeft="26sp"
+			android:layout_below="@id/glossary"
+			android:gravity="center_vertical"/>
+		
+	</RelativeLayout>
+		
+		
+</LinearLayout>

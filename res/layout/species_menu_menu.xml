@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu"
+        android:title="Main Menu" 
+        android:icon="@drawable/ic_menu_home"/>
+        
+        
+    <item android:id="@+id/startkey"
+        android:title="Key" 
+        android:icon="@drawable/ic_menu_share"/>
+        
+    <item android:id="@+id/menu_glossary"
+        android:title="Glossary"
+        android:icon="@drawable/ic_menu_search" />
+
+
+</menu>

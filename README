@@ -1,0 +1,18 @@
+<<<<<<< HEAD
+This is an Android app designed to help students at the Evergreen State College identify common lichens on campus.  The data included in the app is made up for testing purposes.  Real data is going to be collected over spring quarter 2011 (march-june) from lichen surveys of EEON (Evergreen Ecological Observation Network) sites.  The finished app will allow the user to locate EEON plots and view lists of lichens found in those areas, view images of selected lichens, and explore detailed taxonomic information.  
+=======
+Lichen Guide is an Android app designed to help users identify lichens.  
+Currently includes a dichotomous key to genera, based on macrocharacters, so 
+no chemical tests are required to use it.  
+
+-Includes a glossary, with photos
+-Includes species information and photos
+
+Based on lichen surveys in the Evergreen Ecological Observation Network (EEON) 
+in the spring of 2011.  
+
+AndroidManifest includes installLocation=preferExternal to allow users with API 8 and above to install
+app to external storage, as app is around 16MB.  MinSDK is still at API 7, allowing updates to still occur for those
+users with the lower API level.  They just won't be able to move the app to external storage.
+>>>>>>> origin4/master
+

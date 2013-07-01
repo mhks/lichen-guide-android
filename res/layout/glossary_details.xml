@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <!-- Header -->
+    
+    <LinearLayout 
+    android:id="@+id/glossary_title_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="2sp" android:baselineAligned="true"
+    android:background="@drawable/back_rectangle">
+    <!--  LOGO -->
+        <ImageView 
+    	android:src="@drawable/lichen_menu"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:id="@+id/logo"
+    	android:layout_gravity="center_vertical"/>
+    	
+		<TextView
+			android:id="@+id/glossary_details_header_text"
+	        android:text="Glossary"
+	        android:textSize="24sp"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:textColor="#FFFFFF"
+	        /> 
+</LinearLayout>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+           
+<!-- TITLE TEXTVIEW -->        
+<!--  <TextView
+        android:id="@+id/glossary_title_title"
+        android:text="Entry: "
+        android:textStyle="bold"
+        android:textSize="9pt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/glossary_title_layout"/>          -->
+<TextView
+        android:id="@+id/glossary_title"
+        android:textStyle="bold"
+        android:textSize="9pt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/glossary_title_layout"/>  
+<!-- TITLE TEXTVIEW -->        
+         
+<TextView
+        android:id="@+id/glossary_text"
+        android:textSize="9pt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/glossary_title"/> 
+<!-- TITLE TEXTVIEW -->        
+<View 
+	android:id="@+id/divider"
+	android:layout_height="2sp"
+	android:paddingTop="10dp"
+	android:layout_width="fill_parent" 
+	android:background="#5C5C5C"
+	android:layout_below="@id/glossary_text"/>
+<!-- Image Gallery -->        
+<Gallery xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_below="@id/divider"
+    android:id="@+id/gallery"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="2sp"
+    android:spacing="2sp"
+    /> 
+    
+<TextView
+        android:id="@+id/gallery_annotation"
+        android:textSize="8pt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gallery"/> 
+          
+        
+                
+</RelativeLayout><!--  -->
+</ScrollView>
+</LinearLayout>

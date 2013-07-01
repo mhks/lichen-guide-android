@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <!-- Header -->
+    <!--  Contains Logo Image + Lichen Binomial -->
+   <LinearLayout 
+   	android:id="@+id/species_header_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="2sp" android:baselineAligned="true"
+    android:background="@drawable/back_rectangle">
+    
+        <ImageView 
+    	android:src="@drawable/lichen_menu"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:id="@+id/logo"
+    	android:layout_gravity="center_vertical"/>
+    	
+		<TextView
+			android:id="@+id/binomial"
+	        android:textSize="20sp"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:textColor="#FFFFFF"
+	        /> 
+	        
+	</LinearLayout>
+
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+           
+<!-- TITLE TEXTVIEW -->        
+<TextView
+        android:id="@+id/growth_type_Title"
+        android:text="Growth Type: "
+        android:textStyle="bold"
+        android:textSize="9pt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/species_header_layout"/>          
+<TextView
+        android:id="@+id/growth_type"
+        android:layout_toRightOf="@id/growth_type_Title"
+        android:textSize="9pt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/species_header_layout"/>  
+<!-- TITLE TEXTVIEW -->        
+<TextView
+        android:id="@+id/substrate_Title"
+        android:text="Substrate: "
+        android:textStyle="bold"
+        android:textSize="9pt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/growth_type"/>         
+<TextView
+        android:id="@+id/substrate"
+        android:layout_toRightOf="@id/substrate_Title"
+        android:textSize="9pt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/growth_type"/> 
+<!-- TITLE TEXTVIEW -->        
+<TextView
+        android:id="@+id/habitat_Title"
+        android:text="Habitat: "
+        android:textStyle="bold"
+        android:textSize="9pt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/substrate"/>  
+<TextView
+        android:id="@+id/habitat"
+        android:layout_toRightOf="@id/habitat_Title"
+        android:textSize="9pt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/substrate"/> 
+<!-- TITLE TEXTVIEW -->        
+<TextView
+        android:id="@+id/apothecia_Title"
+        android:text="Apothecia: "
+        android:textStyle="bold"
+        android:textSize="9pt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/habitat"/>     
+<TextView
+        android:id="@+id/apothecia"
+        android:layout_toRightOf="@id/apothecia_Title"
+        android:textSize="9pt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/habitat"/>  
+<!-- TITLE TEXTVIEW -->        
+<TextView
+        android:id="@+id/soredia_Title"
+        android:text="Soredia: "
+        android:textStyle="bold"
+        android:textSize="9pt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/apothecia"/> 
+<TextView
+        android:id="@+id/soredia"
+        android:layout_toRightOf="@id/soredia_Title"
+        android:textSize="9pt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/apothecia"/>  
+<!-- TITLE TEXTVIEW -->        
+<TextView
+        android:id="@+id/isidia_Title"
+        android:text="Isidia: "
+        android:textStyle="bold"
+        android:textSize="9pt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/soredia"/>
+<TextView
+        android:id="@+id/isidia"
+        android:layout_toRightOf="@id/isidia_Title"        
+        android:textSize="9pt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/soredia"/>  
+<!-- TITLE TEXTVIEW -->        
+<TextView
+        android:id="@+id/pycnidia_Title"
+        android:text="Pycnidia: "
+        android:textStyle="bold"
+        android:textSize="9pt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/isidia"/>
+<TextView
+        android:id="@+id/pycnidia"
+        android:layout_toRightOf="@id/pycnidia_Title"
+        android:textSize="9pt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/isidia"/>  
+<!-- TITLE TEXTVIEW -->        
+<TextView
+        android:id="@+id/cilia_Title"
+        android:text="Cilia: "
+        android:textStyle="bold"
+        android:textSize="9pt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pycnidia"/>        
+<TextView
+        android:id="@+id/cilia"
+        android:layout_toRightOf="@id/cilia_Title"
+        android:textSize="9pt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pycnidia"/>
+<!-- TITLE TEXTVIEW -->        
+<TextView
+        android:id="@+id/rhizines_Title"
+        android:text="Rhizines: "
+        android:textStyle="bold"
+        android:textSize="9pt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cilia"/>                  
+<TextView
+        android:id="@+id/rhizines"
+        android:layout_toRightOf="@id/rhizines_Title"
+        android:textSize="9pt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cilia"/> 
+<!-- TITLE TEXTVIEW -->        
+<TextView
+        android:id="@+id/pseudocyph_Title"
+        android:text="Pseudocyphellae: "
+        android:textStyle="bold"
+        android:textSize="9pt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rhizines"/>          
+<TextView
+        android:id="@+id/pseudocyph"
+        android:layout_toRightOf="@id/pseudocyph_Title"
+        android:textSize="9pt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rhizines"/>   
+<!-- TITLE TEXTVIEW -->        
+<TextView
+        android:id="@+id/notes_Title"
+        android:textStyle="bold"
+        android:text="Notes: "
+        android:textSize="9pt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pseudocyph"/>         
+<TextView
+        android:id="@+id/notes"
+        android:layout_toRightOf="@id/notes_Title"
+        android:textSize="9pt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pseudocyph"/>     
+<!--  DIVIDER, THEN GALLERY -->
+<View 
+	android:id="@+id/divider"
+	android:layout_height="2sp"
+	android:padding="4sp"
+	android:layout_width="fill_parent" 
+	android:background="#5C5C5C"
+	android:layout_below="@id/notes"/>
+	
+<Gallery xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_below="@id/divider"
+    android:id="@+id/gallery"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="2sp"
+    android:spacing="2sp"/>       
+
+               
+</RelativeLayout>
+</ScrollView>
+</LinearLayout>

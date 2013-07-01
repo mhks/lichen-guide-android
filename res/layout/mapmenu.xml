@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/icon"
+        android:title="Main Menu"/>
+    <item android:id="@+id/text"
+        android:title="Lichen Index" />
+     <item android:id="@+id/currentloc"
+        android:title="Show Current Location"/>
+</menu>
+
+
+
+
+<!-- 
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/mainMenu"
+        android:title="Main Menu"/>
+    <item android:id="@+id/lichenIndex"
+        android:title="Lichen Index" />
+    <item android:id="@+id/forestType"
+        android:title="Forest Types"
+         />
+</menu>
+ -->
